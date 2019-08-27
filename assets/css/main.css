@@ -1,0 +1,204 @@
+body{
+    padding-top:auto;
+}
+
+#footer{
+    /*margin-top: 50px;*/
+}
+#name{
+    text-underline-color: white;
+}
+img.details{
+    width:33%; /*IF MOST MODAL IMAGES ARE SMALL, EDIT HERE ---> 70% OR SO*/
+    margin: 15px auto;
+}
+.table-auto{
+    width: auto;
+    margin: 0 auto;
+}
+
+#category{
+    line-height: 3.0;
+    border-radius: 5px;
+    background-color: #2e6da4;
+}
+#sub-category{
+    line-height: 2.0;
+    border-radius: 5px;
+}
+#add-product-btn{
+    margin-top: -35px;
+}
+
+#cart-width{
+    line-height: 3.0;
+    background-color: #2aabd2;
+}
+
+#recent-width{
+    line-height: 3.0;
+}
+
+
+#login-form{
+    width: 40%;
+    height: 50%;
+    border: 5px inset blueviolet;
+    border-bottom-style: outset;
+    border-radius: 15px ;
+    box-shadow: 7px 8px 15px rgba(4,0,0,0.9);
+    margin: 7.5% auto;
+    padding: 20px;
+    color: mediumspringgreen;
+    background: rgba(20,50,50,0.50);
+
+}
+#signup-form{
+    width: 40%;
+    height: 50%;
+    border: 5px inset blueviolet;
+    border-bottom-style: outset;
+    border-radius: 15px ;
+    box-shadow: 7px 8px 15px rgba(4,0,0,0.9);
+    margin: 7.5% auto;
+    padding: 20px;
+    color: mediumspringgreen;
+    background: rgba(20,50,50,0.50);
+
+}
+
+.totals-table-header th{
+    text-align: center;
+}
+.carousel-indicators{
+    padding-bottom: 30px;
+}
+
+.same{
+    width: 100%;
+    height: 640px;
+}
+.table-auto{
+    width:auto;
+}
+
+#add-product-btn{
+    margin-top: -50px;
+}
+.saved-image img{
+    width:200px;
+    height: auto;
+}
+#cart_widget td{
+    font-size: 12px;
+}
+#recent_widget{
+    font-size: 12px;
+}
+input.price-range {
+    width: 55px;
+}
+/*.fa {*/
+    /*padding: 2px;*/
+    /*font-size: 30px;*/
+    /*width: 30px;*/
+    /*!*height: 40px;*!*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+/*}*/
+.fa-whatsapp{
+    padding: 7px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    background: #26ff49;
+    color: white;
+}
+.fa-facebook {
+    padding: 7px;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    padding: 7px;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    padding: 7px;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github {
+    padding: 7px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+}
+@media (max-width: 767px) {
+    
+}
+.icon-bar1, .icon-bar2, .icon-bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .icon-bar1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .icon-bar2 {
+    opacity: 0;
+}
+.change .icon-bar3{
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+#bar1{
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+#bar2{
+    opacity: 0;
+}
+#bar3{
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
